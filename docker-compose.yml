@@ -71,7 +71,7 @@ services:
       MASTER: spark://master:7077
     depends_on:
       - master
-      - requirements
+#       - requirements
     ports:
       - "8888:8888"
     volumes:
