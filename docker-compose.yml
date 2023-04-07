@@ -82,5 +82,5 @@ services:
   requirements:
     image: python:3.7-alpine
     volumes:
-    - ./requirements.txt:/notebook
-    command: pip install -r /notebook/requirements.txt
+    - ./requirements:/requirements
+    command: pip install -r /requirements/requirements.txt
