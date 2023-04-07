@@ -71,9 +71,14 @@ services:
       MASTER: spark://master:7077
     depends_on:
       - master
+      - requirements
     ports:
       - "8888:8888"
     volumes:
       - ./jupyter/notebook:/notebook
       - ./dataset:/dataset
       - ./code:/app
+  
+  requirements:
+    image: python:3.7-alpine
+    command: pip install -r requirements.txt
