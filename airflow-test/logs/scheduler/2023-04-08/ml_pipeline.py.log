@@ -1,0 +1,1573 @@
+[2023-04-08T13:41:30.016+0000] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:41:30.018+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:41:30.020+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:41:30.019+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:41:30.042+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:41:30.055+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.042 seconds
+[2023-04-08T13:42:00.799+0000] {processor.py:153} INFO - Started process (PID=588) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:00.802+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:42:00.804+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:42:00.804+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:00.820+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:00.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.038 seconds
+[2023-04-08T13:42:31.186+0000] {processor.py:153} INFO - Started process (PID=639) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:31.190+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:42:31.193+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:42:31.193+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:31.205+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:31.219+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T13:42:35.594+0000] {processor.py:153} INFO - Started process (PID=646) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:35.597+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:42:35.599+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:42:35.599+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:35.616+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:42:35.615+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:42:35.618+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:42:35.638+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.050 seconds
+[2023-04-08T13:43:05.878+0000] {processor.py:153} INFO - Started process (PID=697) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:05.882+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:43:05.884+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:43:05.884+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:05.895+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:43:05.895+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:43:05.898+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:05.916+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.045 seconds
+[2023-04-08T13:43:36.157+0000] {processor.py:153} INFO - Started process (PID=748) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:36.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:43:36.163+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:43:36.162+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:36.173+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:43:36.171+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:43:36.174+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:43:36.202+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.052 seconds
+[2023-04-08T13:44:06.302+0000] {processor.py:153} INFO - Started process (PID=799) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:06.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:44:06.307+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:44:06.307+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:06.319+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:44:06.318+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:44:06.321+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:06.337+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.038 seconds
+[2023-04-08T13:44:36.482+0000] {processor.py:153} INFO - Started process (PID=850) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:36.485+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:44:36.487+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:44:36.487+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:36.499+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:44:36.498+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:44:36.501+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:44:36.519+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.041 seconds
+[2023-04-08T13:45:06.822+0000] {processor.py:153} INFO - Started process (PID=901) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:06.826+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:45:06.828+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:45:06.828+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:06.840+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:45:06.839+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:45:06.841+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:06.860+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.045 seconds
+[2023-04-08T13:45:37.780+0000] {processor.py:153} INFO - Started process (PID=952) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:37.784+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:45:37.785+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:45:37.785+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:37.795+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:45:37.794+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:45:37.796+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:45:37.815+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.042 seconds
+[2023-04-08T13:46:08.039+0000] {processor.py:153} INFO - Started process (PID=1003) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:08.043+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:46:08.045+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:46:08.045+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:08.056+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:46:08.055+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:46:08.058+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:08.077+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.041 seconds
+[2023-04-08T13:46:38.689+0000] {processor.py:153} INFO - Started process (PID=1054) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:38.693+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:46:38.695+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:46:38.695+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:38.705+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:46:38.704+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:46:38.707+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:46:38.725+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.044 seconds
+[2023-04-08T13:47:09.369+0000] {processor.py:153} INFO - Started process (PID=1105) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:09.372+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:47:09.374+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:47:09.374+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:09.383+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:47:09.382+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:47:09.384+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:09.404+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T13:47:40.089+0000] {processor.py:153} INFO - Started process (PID=1156) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:40.092+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:47:40.095+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:47:40.095+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:40.106+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:47:40.105+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:47:40.108+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:47:40.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.044 seconds
+[2023-04-08T13:48:10.292+0000] {processor.py:153} INFO - Started process (PID=1207) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:10.295+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:48:10.297+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:10.297+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:10.305+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:10.305+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 8
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-04-08T13:48:10.307+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:10.325+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.035 seconds
+[2023-04-08T13:48:20.553+0000] {processor.py:153} INFO - Started process (PID=1243) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:20.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:48:20.556+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:20.556+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:20.568+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:20.567+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 13
+    def
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:48:20.569+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:20.583+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.033 seconds
+[2023-04-08T13:48:50.771+0000] {processor.py:153} INFO - Started process (PID=1294) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:50.796+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:48:50.814+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:50.814+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:50.846+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:48:50.845+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 13
+    def
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:48:50.850+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:48:50.902+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.136 seconds
+[2023-04-08T13:49:21.098+0000] {processor.py:153} INFO - Started process (PID=1345) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:21.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:49:21.103+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:49:21.103+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:21.116+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:49:21.115+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 13
+    def
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:49:21.119+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:21.136+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.042 seconds
+[2023-04-08T13:49:51.298+0000] {processor.py:153} INFO - Started process (PID=1396) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:51.301+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:49:51.303+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:49:51.302+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:51.313+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:49:51.312+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 13
+    def
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:49:51.315+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:49:51.332+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T13:50:21.756+0000] {processor.py:153} INFO - Started process (PID=1447) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:21.760+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:50:21.763+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:50:21.762+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:21.776+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:50:21.775+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 13
+    def
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:50:21.778+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:21.796+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.044 seconds
+[2023-04-08T13:50:35.471+0000] {processor.py:153} INFO - Started process (PID=1456) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:35.474+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:50:35.476+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:50:35.476+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:35.495+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:50:35.507+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.039 seconds
+[2023-04-08T13:51:05.749+0000] {processor.py:153} INFO - Started process (PID=1507) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:05.752+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:51:05.754+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:51:05.754+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:05.768+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:05.783+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.038 seconds
+[2023-04-08T13:51:36.266+0000] {processor.py:153} INFO - Started process (PID=1558) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:36.272+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:51:36.275+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:51:36.275+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:36.292+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:51:36.306+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2023-04-08T13:52:06.426+0000] {processor.py:153} INFO - Started process (PID=1609) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:06.429+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:52:06.431+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:52:06.431+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:06.441+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:06.453+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.029 seconds
+[2023-04-08T13:52:36.759+0000] {processor.py:153} INFO - Started process (PID=1660) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:36.761+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:52:36.763+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:52:36.763+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:36.771+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:52:36.782+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.026 seconds
+[2023-04-08T13:53:07.678+0000] {processor.py:153} INFO - Started process (PID=1709) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:07.682+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:53:07.684+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:53:07.684+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:07.696+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:53:07.694+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:53:07.697+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:07.728+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.055 seconds
+[2023-04-08T13:53:37.915+0000] {processor.py:153} INFO - Started process (PID=1759) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:37.919+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:53:37.921+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:53:37.921+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:37.932+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:53:37.931+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:53:37.934+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:53:37.950+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.039 seconds
+[2023-04-08T13:54:08.887+0000] {processor.py:153} INFO - Started process (PID=1810) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:08.890+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:54:08.891+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:54:08.891+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:08.901+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:54:08.899+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:54:08.904+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:08.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T13:54:39.253+0000] {processor.py:153} INFO - Started process (PID=1861) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:39.256+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:54:39.258+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:54:39.258+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:39.268+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:54:39.267+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:54:39.269+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:54:39.287+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.040 seconds
+[2023-04-08T13:55:09.488+0000] {processor.py:153} INFO - Started process (PID=1912) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:09.491+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:55:09.493+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:55:09.493+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:09.500+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:55:09.499+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:55:09.500+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:09.517+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.032 seconds
+[2023-04-08T13:55:39.965+0000] {processor.py:153} INFO - Started process (PID=1963) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:39.969+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:55:39.971+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:55:39.971+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:39.987+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:55:39.986+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:55:39.988+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:55:40.004+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.044 seconds
+[2023-04-08T13:56:10.201+0000] {processor.py:153} INFO - Started process (PID=2014) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:10.204+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:56:10.206+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:56:10.205+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:10.218+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:56:10.215+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:56:10.219+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:10.247+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.050 seconds
+[2023-04-08T13:56:40.534+0000] {processor.py:153} INFO - Started process (PID=2064) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:40.538+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:56:40.541+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:56:40.540+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:40.555+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:56:40.553+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:56:40.558+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:56:40.575+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2023-04-08T13:57:10.750+0000] {processor.py:153} INFO - Started process (PID=2114) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:10.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:57:10.754+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:57:10.754+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:10.763+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:57:10.761+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:57:10.764+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:10.784+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T13:57:41.184+0000] {processor.py:153} INFO - Started process (PID=2165) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:41.187+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:57:41.189+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:57:41.189+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:41.203+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:57:41.200+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:57:41.204+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:57:41.229+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.051 seconds
+[2023-04-08T13:58:11.682+0000] {processor.py:153} INFO - Started process (PID=2217) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:11.685+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:58:11.687+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:11.687+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:11.696+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:11.694+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:58:11.698+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:11.721+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.043 seconds
+[2023-04-08T13:58:42.108+0000] {processor.py:153} INFO - Started process (PID=2268) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:42.113+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:58:42.115+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:42.115+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:42.130+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:42.129+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 24
+    wait_for_upstream =
+                       ^
+SyntaxError: invalid syntax
+[2023-04-08T13:58:42.132+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:42.149+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2023-04-08T13:58:48.326+0000] {processor.py:153} INFO - Started process (PID=2272) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:48.328+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:58:48.331+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.331+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:48.365+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:58:48.497+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.497+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:ml-etl-pipeline
+[2023-04-08T13:58:48.506+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.506+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:ml-etl-pipeline
+[2023-04-08T13:58:48.513+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.513+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:ml-etl-pipeline
+[2023-04-08T13:58:48.515+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.514+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T13:58:48.523+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.523+0000] {dag.py:2726} INFO - Creating ORM DAG for ml-etl-pipeline
+[2023-04-08T13:58:48.531+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:58:48.531+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T13:58:48.546+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.225 seconds
+[2023-04-08T13:59:18.630+0000] {processor.py:153} INFO - Started process (PID=2323) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:18.654+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:59:18.657+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:18.656+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:18.678+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:18.696+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:18.696+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T13:59:18.713+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:18.713+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T13:59:18.729+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.108 seconds
+[2023-04-08T13:59:48.908+0000] {processor.py:153} INFO - Started process (PID=2374) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:48.911+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T13:59:48.913+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:48.913+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:48.933+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T13:59:48.950+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:48.949+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T13:59:48.969+0000] {logging_mixin.py:137} INFO - [2023-04-08T13:59:48.969+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T13:59:48.983+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.083 seconds
+[2023-04-08T14:00:19.774+0000] {processor.py:153} INFO - Started process (PID=2425) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:19.777+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:00:19.779+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:19.779+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:19.798+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:19.816+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:19.816+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:00:19.833+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:19.833+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T14:00:19.847+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.080 seconds
+[2023-04-08T14:00:50.493+0000] {processor.py:153} INFO - Started process (PID=2476) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:50.496+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:00:50.499+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:50.499+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:50.518+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:00:50.536+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:50.536+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:00:50.554+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:00:50.554+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T14:00:50.568+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.079 seconds
+[2023-04-08T14:01:21.302+0000] {processor.py:153} INFO - Started process (PID=2527) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:21.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:01:21.307+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:21.307+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:21.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:21.341+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:21.341+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:01:21.359+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:21.359+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T14:01:21.373+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.080 seconds
+[2023-04-08T14:01:52.017+0000] {processor.py:153} INFO - Started process (PID=2578) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:52.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:01:52.022+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:52.022+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:52.037+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:52.056+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:52.056+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:01:52.074+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:52.074+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to None, run_after=None
+[2023-04-08T14:01:52.088+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.075 seconds
+[2023-04-08T14:01:58.442+0000] {processor.py:153} INFO - Started process (PID=2626) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:58.444+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:01:58.446+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:58.446+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:58.459+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:01:58.458+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 52
+    dag,
+    ^
+SyntaxError: positional argument follows keyword argument
+[2023-04-08T14:01:58.460+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:01:58.478+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.039 seconds
+[2023-04-08T14:02:11.629+0000] {processor.py:153} INFO - Started process (PID=2627) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:11.632+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:02:11.634+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:02:11.634+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:11.646+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:02:11.645+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 52
+    dag,
+    ^
+SyntaxError: positional argument follows keyword argument
+[2023-04-08T14:02:11.647+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:11.662+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.036 seconds
+[2023-04-08T14:02:41.723+0000] {processor.py:153} INFO - Started process (PID=2677) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:41.727+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:02:41.732+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:02:41.732+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:41.747+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:02:41.746+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 52
+    dag,
+    ^
+SyntaxError: positional argument follows keyword argument
+[2023-04-08T14:02:41.749+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:02:41.766+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.049 seconds
+[2023-04-08T14:03:11.815+0000] {processor.py:153} INFO - Started process (PID=2728) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:11.818+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:03:11.820+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:11.820+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:11.833+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:11.832+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 52
+    dag,
+    ^
+SyntaxError: positional argument follows keyword argument
+[2023-04-08T14:03:11.835+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:11.873+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.062 seconds
+[2023-04-08T14:03:22.005+0000] {processor.py:153} INFO - Started process (PID=2729) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:22.007+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:03:22.009+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:22.009+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:22.042+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:22.091+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:22.091+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:03:22.108+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:22.108+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:03:22.126+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.125 seconds
+[2023-04-08T14:03:29.596+0000] {processor.py:153} INFO - Started process (PID=2778) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:29.599+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:03:29.601+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:29.601+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:29.635+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:29.651+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:29.651+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:03:29.670+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:29.670+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:03:29.698+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.106 seconds
+[2023-04-08T14:03:59.813+0000] {processor.py:153} INFO - Started process (PID=2829) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:59.817+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:03:59.819+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:59.819+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:59.841+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:03:59.865+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:59.865+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:03:59.880+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:03:59.880+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:03:59.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.091 seconds
+[2023-04-08T14:04:30.790+0000] {processor.py:153} INFO - Started process (PID=2880) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:30.793+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:04:30.795+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:30.795+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:30.816+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:30.844+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:30.843+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:04:30.861+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:30.861+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:04:30.873+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.088 seconds
+[2023-04-08T14:04:48.194+0000] {processor.py:153} INFO - Started process (PID=2883) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:48.197+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:04:48.200+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:48.199+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:48.237+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:04:48.297+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:48.297+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:04:48.313+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:04:48.313+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:04:48.335+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.147 seconds
+[2023-04-08T14:05:18.401+0000] {processor.py:153} INFO - Started process (PID=2933) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:18.404+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:05:18.406+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:18.406+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:18.438+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:18.467+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:18.467+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:05:18.486+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:18.485+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:05:18.498+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.102 seconds
+[2023-04-08T14:05:48.601+0000] {processor.py:153} INFO - Started process (PID=2984) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:48.603+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:05:48.605+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:48.605+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:48.624+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:05:48.650+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:48.650+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:05:48.668+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:05:48.668+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:05:48.683+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.085 seconds
+[2023-04-08T14:06:18.936+0000] {processor.py:153} INFO - Started process (PID=3035) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:18.939+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:06:18.941+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:18.941+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:18.960+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:18.986+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:18.986+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:06:19.003+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:19.003+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:06:19.017+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.087 seconds
+[2023-04-08T14:06:49.192+0000] {processor.py:153} INFO - Started process (PID=3086) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:49.197+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:06:49.200+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:49.200+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:49.228+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:06:49.258+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:49.258+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:06:49.280+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:06:49.280+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:06:49.295+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.108 seconds
+[2023-04-08T14:07:19.767+0000] {processor.py:153} INFO - Started process (PID=3137) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:19.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:07:19.773+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:19.773+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:19.799+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:19.826+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:19.826+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:07:19.844+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:19.844+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:07:19.857+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.096 seconds
+[2023-04-08T14:07:36.413+0000] {processor.py:153} INFO - Started process (PID=3186) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:36.416+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:07:36.417+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:36.417+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:36.447+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:36.494+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:36.494+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:07:36.509+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:36.509+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-06T00:00:00+00:00, run_after=2023-04-07T00:00:00+00:00
+[2023-04-08T14:07:36.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.117 seconds
+[2023-04-08T14:07:55.837+0000] {processor.py:153} INFO - Started process (PID=3189) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:55.840+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:07:55.842+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:55.842+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:55.872+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:07:55.870+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 75, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 760, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 220, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'encoding-features' has already been added to the DAG
+[2023-04-08T14:07:55.874+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:07:55.895+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.061 seconds
+[2023-04-08T14:08:05.436+0000] {processor.py:153} INFO - Started process (PID=3237) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:05.439+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:08:05.442+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:05.442+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:05.471+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:05.468+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 75, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 760, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 220, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'encoding-features' has already been added to the DAG
+[2023-04-08T14:08:05.473+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:05.490+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.056 seconds
+[2023-04-08T14:08:26.123+0000] {processor.py:153} INFO - Started process (PID=3240) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:26.126+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:08:26.127+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:26.127+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:26.157+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:26.154+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 75, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 760, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 220, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'encoding-features' has already been added to the DAG
+[2023-04-08T14:08:26.159+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:26.178+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.057 seconds
+[2023-04-08T14:08:48.009+0000] {processor.py:153} INFO - Started process (PID=3291) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:48.012+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:08:48.014+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:48.014+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:48.047+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:08:48.043+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 75, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 760, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 220, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'encoding-features' has already been added to the DAG
+[2023-04-08T14:08:48.048+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:08:48.064+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.060 seconds
+[2023-04-08T14:09:18.220+0000] {processor.py:153} INFO - Started process (PID=3342) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:18.224+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:09:18.227+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:18.227+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:18.256+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:18.253+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 75, in <module>
+    dag=dag,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 394, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 760, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 220, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'encoding-features' has already been added to the DAG
+[2023-04-08T14:09:18.260+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:18.281+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.069 seconds
+[2023-04-08T14:09:32.966+0000] {processor.py:153} INFO - Started process (PID=3371) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:32.969+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:09:32.971+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:32.971+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:33.000+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:32.997+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:09:33.002+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:33.018+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.056 seconds
+[2023-04-08T14:09:33.334+0000] {processor.py:153} INFO - Started process (PID=3378) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:33.336+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:09:33.339+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:33.338+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:33.371+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:33.368+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:09:33.395+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:33.410+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.079 seconds
+[2023-04-08T14:09:55.619+0000] {processor.py:153} INFO - Started process (PID=3395) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:55.623+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:09:55.625+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:55.625+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:55.663+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:09:55.659+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 40, in <module>
+    tags=['ml','etl']
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 471, in __init__
+    date = timezone.parse(date)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/timezone.py", line 214, in parse
+    return pendulum.parse(string, tz=timezone or TIMEZONE, strict=False)  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 29, in parse
+    return _parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parser.py", line 45, in _parse
+    parsed = base_parse(text, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 74, in parse
+    return _normalize(_parse(text, **_options), **_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 115, in _parse
+    return _parse_iso8601_interval(text)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pendulum/parsing/__init__.py", line 215, in _parse_iso8601_interval
+    if "/" not in text:
+TypeError: argument of type 'type' is not iterable
+[2023-04-08T14:09:55.665+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:09:55.689+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.078 seconds
+[2023-04-08T14:10:12.885+0000] {processor.py:153} INFO - Started process (PID=3446) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:12.887+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:10:12.888+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:10:12.888+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:12.918+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:10:12.915+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:10:12.920+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:12.935+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.054 seconds
+[2023-04-08T14:10:43.811+0000] {processor.py:153} INFO - Started process (PID=3495) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:43.813+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:10:43.815+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:10:43.815+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:43.840+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:10:43.833+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:10:43.842+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:10:43.860+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.053 seconds
+[2023-04-08T14:11:14.011+0000] {processor.py:153} INFO - Started process (PID=3545) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:14.013+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:11:14.016+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:11:14.016+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:14.033+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:11:14.030+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:11:14.035+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:14.059+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.051 seconds
+[2023-04-08T14:11:44.388+0000] {processor.py:153} INFO - Started process (PID=3596) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:44.390+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:11:44.392+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:11:44.392+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:44.407+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:11:44.404+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:11:44.411+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:11:44.425+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.040 seconds
+[2023-04-08T14:12:14.588+0000] {processor.py:153} INFO - Started process (PID=3647) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:14.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:12:14.597+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:12:14.597+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:14.622+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:12:14.617+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 79, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:12:14.626+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:14.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.060 seconds
+[2023-04-08T14:12:36.762+0000] {processor.py:153} INFO - Started process (PID=3694) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:36.764+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:12:36.766+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:12:36.766+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:36.777+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:12:36.777+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 41
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:12:36.778+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:12:36.796+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.037 seconds
+[2023-04-08T14:13:06.833+0000] {processor.py:153} INFO - Started process (PID=3743) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:06.835+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:13:06.836+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:06.836+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:06.845+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:06.844+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 41
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:13:06.846+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:06.863+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.033 seconds
+[2023-04-08T14:13:08.129+0000] {processor.py:153} INFO - Started process (PID=3750) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:08.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:13:08.132+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:08.132+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:08.140+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:08.139+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 42
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:13:08.141+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:08.157+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.031 seconds
+[2023-04-08T14:13:38.410+0000] {processor.py:153} INFO - Started process (PID=3801) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:38.413+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:13:38.416+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:38.416+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:38.428+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:13:38.427+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 42
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:13:38.430+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:13:38.446+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.041 seconds
+[2023-04-08T14:14:00.168+0000] {processor.py:153} INFO - Started process (PID=3811) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:00.169+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:14:00.170+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:00.170+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:00.181+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:00.180+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 42
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:14:00.183+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:00.200+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.036 seconds
+[2023-04-08T14:14:09.637+0000] {processor.py:153} INFO - Started process (PID=3853) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:09.639+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:14:09.641+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:09.641+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:09.655+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:09.653+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 41
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:14:09.657+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:09.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.042 seconds
+[2023-04-08T14:14:39.819+0000] {processor.py:153} INFO - Started process (PID=3904) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:39.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:14:39.822+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:39.822+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:39.832+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:39.831+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 41
+    tags=['ml','etl']
+       ^
+SyntaxError: invalid syntax
+[2023-04-08T14:14:39.835+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:39.853+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.039 seconds
+[2023-04-08T14:14:43.925+0000] {processor.py:153} INFO - Started process (PID=3905) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:43.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:14:43.929+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:43.929+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:43.972+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:14:43.969+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:14:43.974+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:14:43.993+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.073 seconds
+[2023-04-08T14:15:14.196+0000] {processor.py:153} INFO - Started process (PID=3956) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:14.198+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:15:14.200+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:15:14.200+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:14.222+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:15:14.218+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:15:14.225+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:14.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.054 seconds
+[2023-04-08T14:15:40.592+0000] {processor.py:153} INFO - Started process (PID=4007) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:40.595+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:15:40.597+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:15:40.597+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:40.630+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:15:40.627+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:15:40.631+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:15:40.647+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.060 seconds
+[2023-04-08T14:16:10.948+0000] {processor.py:153} INFO - Started process (PID=4058) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:10.951+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:16:10.952+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:10.952+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:10.972+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:10.968+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:16:10.976+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:10.992+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2023-04-08T14:16:41.329+0000] {processor.py:153} INFO - Started process (PID=4109) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:41.332+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:16:41.334+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:41.334+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:41.355+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:41.351+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:16:41.357+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:41.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2023-04-08T14:16:44.448+0000] {processor.py:153} INFO - Started process (PID=4110) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:44.450+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:16:44.452+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:44.452+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:44.468+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:44.466+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 37
+    'start_date': datetime(2023, 4, 1, 1, 1),
+                ^
+SyntaxError: invalid syntax
+[2023-04-08T14:16:44.470+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:44.491+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.047 seconds
+[2023-04-08T14:16:55.609+0000] {processor.py:153} INFO - Started process (PID=4111) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:55.611+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:16:55.613+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:55.613+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:55.626+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:16:55.625+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 37
+    'start_date': datetime(2023, 4, 1, 1, 1),
+                ^
+SyntaxError: invalid syntax
+[2023-04-08T14:16:55.627+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:16:55.647+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.043 seconds
+[2023-04-08T14:17:25.843+0000] {processor.py:153} INFO - Started process (PID=4162) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:25.845+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:17:25.846+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:25.846+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:25.857+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:25.855+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 37
+    'start_date': datetime(2023, 4, 1, 1, 1),
+                ^
+SyntaxError: invalid syntax
+[2023-04-08T14:17:25.858+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:25.878+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.038 seconds
+[2023-04-08T14:17:52.692+0000] {processor.py:153} INFO - Started process (PID=4213) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:52.697+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:17:52.699+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:52.698+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:52.732+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:52.728+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:17:52.734+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:52.752+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2023-04-08T14:17:53.731+0000] {processor.py:153} INFO - Started process (PID=4214) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:53.732+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:17:53.734+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:53.734+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:53.764+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:17:53.760+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:17:53.768+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:17:53.783+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.055 seconds
+[2023-04-08T14:18:24.383+0000] {processor.py:153} INFO - Started process (PID=4265) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:24.386+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:18:24.387+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:18:24.387+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:24.412+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:18:24.409+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:18:24.414+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:24.434+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.056 seconds
+[2023-04-08T14:18:54.614+0000] {processor.py:153} INFO - Started process (PID=4316) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:54.618+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:18:54.621+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:18:54.621+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:54.650+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:18:54.646+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 80, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:18:54.655+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:18:54.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.064 seconds
+[2023-04-08T14:19:02.823+0000] {processor.py:153} INFO - Started process (PID=4326) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:02.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:19:02.827+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:02.827+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:02.854+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:02.852+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 28, in <module>
+    'start_date': datetime.datetime(2023, 4, 1, 1, 1),
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+[2023-04-08T14:19:02.855+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:02.870+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.051 seconds
+[2023-04-08T14:19:33.046+0000] {processor.py:153} INFO - Started process (PID=4375) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:33.050+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:19:33.052+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:33.052+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:33.072+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:33.069+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 28, in <module>
+    'start_date': datetime.datetime(2023, 4, 1, 1, 1),
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+[2023-04-08T14:19:33.077+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:33.097+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.057 seconds
+[2023-04-08T14:19:36.957+0000] {processor.py:153} INFO - Started process (PID=4389) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:36.958+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:19:36.961+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:36.961+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:36.989+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:19:36.986+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 81, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:19:36.990+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:19:37.008+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.053 seconds
+[2023-04-08T14:20:07.153+0000] {processor.py:153} INFO - Started process (PID=4435) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:07.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:20:07.157+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:20:07.157+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:07.177+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:20:07.174+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/ml_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ml_pipeline.py", line 81, in <module>
+    wait_for_upstream >> read_data_task >> transform_data_task >> encoding_task >> output_task
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 87, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 236, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskmixin.py", line 206, in _set_relatives
+    self.dag = dag
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 981, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1039, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2343, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-04-08T14:20:07.180+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:07.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.046 seconds
+[2023-04-08T14:20:36.872+0000] {processor.py:153} INFO - Started process (PID=4480) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:36.874+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:20:36.876+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:20:36.875+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:36.910+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:20:36.964+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:20:36.963+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:20:36.984+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:20:36.984+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-08T14:15:00+00:00, run_after=2023-04-08T14:20:00+00:00
+[2023-04-08T14:20:37.004+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.136 seconds
+[2023-04-08T14:21:07.092+0000] {processor.py:153} INFO - Started process (PID=4531) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:07.095+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:21:07.096+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:07.096+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:07.122+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:07.151+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:07.151+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:21:07.174+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:07.173+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-08T14:20:00+00:00, run_after=2023-04-08T14:25:00+00:00
+[2023-04-08T14:21:07.190+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.101 seconds
+[2023-04-08T14:21:37.514+0000] {processor.py:153} INFO - Started process (PID=4582) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:37.517+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:21:37.518+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:37.518+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:37.538+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:21:37.565+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:37.565+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:21:37.585+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:21:37.585+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-08T14:20:00+00:00, run_after=2023-04-08T14:25:00+00:00
+[2023-04-08T14:21:37.600+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.088 seconds
+[2023-04-08T14:22:08.275+0000] {processor.py:153} INFO - Started process (PID=4631) to work on /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:22:08.278+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/ml_pipeline.py for tasks to queue
+[2023-04-08T14:22:08.280+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:22:08.280+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:22:08.304+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ml-etl-pipeline']) retrieved from /opt/airflow/dags/ml_pipeline.py
+[2023-04-08T14:22:08.338+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:22:08.337+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2023-04-08T14:22:08.361+0000] {logging_mixin.py:137} INFO - [2023-04-08T14:22:08.361+0000] {dag.py:3456} INFO - Setting next_dagrun for ml-etl-pipeline to 2023-04-08T14:20:00+00:00, run_after=2023-04-08T14:25:00+00:00
+[2023-04-08T14:22:08.377+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/ml_pipeline.py took 0.107 seconds
