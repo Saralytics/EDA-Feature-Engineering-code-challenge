@@ -38,9 +38,12 @@ Orchastration tool:
 
 Example pipeline in the `airflow` directory. 
 
-Run `docker-compose up` inside airflow directory to see the example. Default username: airflow, default password: airflow 
+Run `docker-compose up` inside airflow directory to see the example. Default username: airflow, default password: airflow. Filter by tag 'ml' to easily find the job named `ml-etl-pipeline`.
 
-Here is what it looks like: <insert picture>
+Here is what it looks like: 
+![alt text](https://github.com/Saralytics/myproject/blob/main/pictures/airflow_tree_view.png)
+
+![alt text](https://github.com/Saralytics/myproject/blob/main/pictures/airflow_graph_view.png)
 
 
 # Considerations
