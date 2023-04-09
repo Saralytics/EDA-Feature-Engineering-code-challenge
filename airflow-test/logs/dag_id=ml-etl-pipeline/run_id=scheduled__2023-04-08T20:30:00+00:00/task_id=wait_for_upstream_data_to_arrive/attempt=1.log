@@ -19,3 +19,8 @@ AIRFLOW_CTX_EXECUTION_DATE=2023-04-08T20:30:00+00:00
 AIRFLOW_CTX_TRY_NUMBER=1
 AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-08T20:30:00+00:00
 [2023-04-08T20:35:01.131+0000] {time_delta.py:46} INFO - Checking if the time (2023-04-08T20:36:00+00:00) has come
+[2023-04-08T20:36:01.197+0000] {time_delta.py:46} INFO - Checking if the time (2023-04-08T20:36:00+00:00) has come
+[2023-04-08T20:36:01.206+0000] {base.py:228} INFO - Success criteria met. Exiting.
+[2023-04-08T20:36:01.245+0000] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=ml-etl-pipeline, task_id=wait_for_upstream_data_to_arrive, execution_date=20230408T203000, start_date=20230408T203500, end_date=20230408T203601
+[2023-04-08T20:36:01.305+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-04-08T20:36:01.341+0000] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check
